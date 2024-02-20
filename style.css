@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.mainContainer {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.hexContainer,
+.rgbContainer {
+  height: 100vh;
+  flex: 1;
+  overflow: hidden;
+}
+
+.btnHex {
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: rgb(189, 255, 6);
+}
+
+#red,
+#green,
+#blue {
+  cursor: pointer;
+}
+
+.rgbContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: coral;
+}
+
+.hexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(32, 48, 102);
+}
+
+.hexColorValue,
+.rgbColorValue { 
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btnRgb {
+  border-radius: 1rem;
+  padding: 0.8rem;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.hexCopy,
+.rgbCopy {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
